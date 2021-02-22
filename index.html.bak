@@ -271,6 +271,7 @@ p, ul {
 <div id="holidays" class="tabcontent">
   <div>
   	<span style = "font-size:24px;"><b>Holidays</b></span>
+  	<span style="float:right;margin: 5px;">Navigate to  <a href="https://insync.legatohealth.com/" target = "_blank">site</a></span>
   </div>
   <p>You can view the list of holidays for Legato, Hyderabad and Bengaluru offices</p>
   <img src="holydays.PNG" alt="Holidays List" title="Holidays List" />
