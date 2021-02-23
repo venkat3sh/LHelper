@@ -2,6 +2,10 @@
 <html>
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css">
+<script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js" integrity="sha384-SlE991lGASHoBfWbelyBPLsUlwY1GwNDJo3jSJO04KZ33K2bwfV9YBauFfnzvynJ" crossorigin="anonymous"></script>
+
 <style>
 body {
   font-family: "Lato", sans-serif;
@@ -104,6 +108,12 @@ p, ul {
   .sidenav {padding-top: 15px;}
   .sidenav a {font-size: 18px;}
 }
+
+.imgCls {
+	margin-right: 5px;
+	height: 20px;
+}
+
 </style>
 </head>
 <body>
@@ -111,21 +121,21 @@ p, ul {
   <img src = "./Legato-logo.png" alt = "Image not available" onclick="onHomeClick()"/>
 </header>
 <div class="tab">
-	<button class="tablinks" id="defaultOpen" onclick="navigateTo(event, 'home')" id="defaultOpen">Home</button>
-  <button class="tablinks" onclick="navigateTo(event, 'inSync')">BCP/Insync</button>
-  <button class="tablinks" onclick="navigateTo(event, 'eTime')">eTime</button>
-  <button class="tablinks" onclick="navigateTo(event, 'payportal')">Payportal</button>
-  <button class="tablinks" onclick="navigateTo(event, 'details')">Update bank details</button>
-  <button class="tablinks" onclick="navigateTo(event, 'ppm')">PPM</button>
-  <button class="tablinks" onclick="navigateTo(event, 'serviceNow')">Service Now</button>
-  <button class="tablinks" onclick="navigateTo(event, 'impact')">IMPACT</button>
-  <button class="tablinks" onclick="navigateTo(event, 'serviceConnect')">IT ServiceConnect</button>
-  <button class="tablinks" onclick="navigateTo(event, 'chromeRiver')">Chrome River</button>
-  <button class="tablinks" onclick="navigateTo(event, 'lms')">Learning Management System</button>
-  <button class="tablinks" onclick="navigateTo(event, 'perfMngmnt')">Performance Management</button>
-  <button class="tablinks" onclick="navigateTo(event, 'insurance')">Health Insurance</button>
-  <button class="tablinks" onclick="navigateTo(event, 'holidays')">Holidays</button>
-  <button class="tablinks" onclick="navigateTo(event, 'contacts')">Contacts</button>
+	<button class="tablinks" id="defaultOpen" onclick="navigateTo(event, 'home')" id="defaultOpen"><i style="margin-right: 5px;color:#2E86C1;" class="fa fa-home"></i>Home</button>
+  <button class="tablinks" onclick="navigateTo(event, 'inSync')"><i style="margin-right:5px;color:#2E86C1;" class="far fa-clock"></i>BCP/Insync</button>
+  <button class="tablinks" onclick="navigateTo(event, 'eTime')"><i style="margin-right:5px;color:#2E86C1;" class="far fa-clock"></i>eTime</button>
+  <button class="tablinks" onclick="navigateTo(event, 'payportal')"><img class="imgCls" src = "payroll_portal.png" alt = "ADP Time"/>Payportal</button>
+  <button class="tablinks" onclick="navigateTo(event, 'details')"><img class="imgCls" src = "bank_details.png" alt = "ADP Time"/>Update bank details</button>
+  <button class="tablinks" onclick="navigateTo(event, 'ppm')"><i style="margin-right: 5px;" class="fa fa-home"></i>PPM</button>
+  <button class="tablinks" onclick="navigateTo(event, 'serviceNow')"><i style="margin-right: 5px;" class="fa fa-home"></i>Service Now</button>
+  <button class="tablinks" onclick="navigateTo(event, 'impact')"><i style="margin-right: 5px;color:#2E86C1;" class="fa fa-star new-dasboard-star-in"></i>IMPACT</button>
+  <button class="tablinks" onclick="navigateTo(event, 'serviceConnect')"><img class="imgCls" src = "service_connect.png" alt = "ADP Time"/>IT ServiceConnect</button>
+  <button class="tablinks" onclick="navigateTo(event, 'chromeRiver')"><i style="margin-right:5px;color:#2E86C1;" class="fas fa-money-bill"></i>Chrome River</button>
+  <button class="tablinks" onclick="navigateTo(event, 'lms')"><img class="imgCls" src = "lms.png" alt = "ADP Time"/>Learning Management System</button>
+  <button class="tablinks" onclick="navigateTo(event, 'perfMngmnt')"><img class="imgCls" src = "perf_mngmnt.png" alt = "ADP Time"/>Performance Management</button>
+  <button class="tablinks" onclick="navigateTo(event, 'insurance')"><img class="imgCls" src = "insurance.png" alt = "ADP Time"/>Health Insurance</button>
+  <button class="tablinks" onclick="navigateTo(event, 'holidays')"><i style="margin-right: 5px;color:#2E86C1;" class="fa fa-home"></i>Holidays</button>
+  <button class="tablinks" onclick="navigateTo(event, 'contacts')"><img class="imgCls" src = "service_desk.png" alt = "ADP Time"/>Contacts</button>
 </div>
 
 <div id="home" class="tabcontent">
@@ -271,7 +281,6 @@ p, ul {
 <div id="holidays" class="tabcontent">
   <div>
   	<span style = "font-size:24px;"><b>Holidays</b></span>
-  	<span style="float:right;margin: 5px;">Navigate to  <a href="https://insync.legatohealth.com/" target = "_blank">site</a></span>
   </div>
   <p>You can view the list of holidays for Legato, Hyderabad and Bengaluru offices</p>
   <img src="holydays.PNG" alt="Holidays List" title="Holidays List" />
