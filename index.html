@@ -127,14 +127,13 @@ p, ul {
   <button class="tablinks" onclick="navigateTo(event, 'payportal')"><img class="imgCls" src = "payroll_portal.png" alt = "ADP Time"/>Payportal</button>
   <button class="tablinks" onclick="navigateTo(event, 'details')"><img class="imgCls" src = "bank_details.png" alt = "ADP Time"/>Update bank details</button>
   <button class="tablinks" onclick="navigateTo(event, 'ppm')"><i style="margin-right: 5px;color:#2E86C1;" class="fa fa-home"></i>PPM</button>
-  <button class="tablinks" onclick="navigateTo(event, 'serviceNow')"><i style="margin-right: 5px;color:#2E86C1;" class="fa fa-home"></i>Service Now</button>
   <button class="tablinks" onclick="navigateTo(event, 'impact')"><i style="margin-right: 5px;color:#2E86C1;" class="fa fa-star new-dasboard-star-in"></i>IMPACT</button>
   <button class="tablinks" onclick="navigateTo(event, 'serviceConnect')"><img class="imgCls" src = "service_connect.png" alt = "ADP Time"/>IT ServiceConnect</button>
   <button class="tablinks" onclick="navigateTo(event, 'chromeRiver')"><i style="margin-right:5px;color:#2E86C1;" class="fas fa-money-bill"></i>Chrome River</button>
   <button class="tablinks" onclick="navigateTo(event, 'lms')"><img class="imgCls" src = "lms.png" alt = "ADP Time"/>Learning Management System</button>
   <button class="tablinks" onclick="navigateTo(event, 'perfMngmnt')"><img class="imgCls" src = "perf_mngmnt.png" alt = "ADP Time"/>Performance Management</button>
   <button class="tablinks" onclick="navigateTo(event, 'insurance')"><img class="imgCls" src = "insurance.png" alt = "ADP Time"/>Health Insurance</button>
-  <button class="tablinks" onclick="navigateTo(event, 'holidays')"><i style="margin-right: 5px;color:#2E86C1;" class="fa fa-home"></i>Holidays</button>
+  <button class="tablinks" onclick="navigateTo(event, 'holidays')"><i style="margin-right: 5px;color:#2E86C1;" class="fas fa-fighter-jet"></i>Holidays</button>
   <button class="tablinks" onclick="navigateTo(event, 'contacts')"><img class="imgCls" src = "service_desk.png" alt = "ADP Time"/>Contacts</button>
 </div>
 
@@ -151,62 +150,86 @@ p, ul {
 <div id="inSync" class="tabcontent">
   <div>
   	<span style = "font-size:24px;"><b>Insync</b></span>
-  	<span style="float:right;margin: 5px;">Navigate to  <a href="https://insync.legatohealth.com/" target = "_blank">site</a></span>
+  	<span style="float:right;margin: 5px;"><a href="https://insync.legatohealth.com/" target = "_blank"><button>Go to Site</button></a></span>
   </div>
   <p>-	BCP stands for Business Continuity Planning which is a process created to help organizations track and plan for disaster scenarios which affect the normal business functioning. Recovery systems and mitigation plans are put in place ahead of time to enable ongoing operations seamlessly.</p>
   <p>-	In Legato we use this tool to track outages with respect to Wi-Fi since we are working from home and business needs to be aware of such issues so that necessary recovery process can be implemented.</p>
   <p>-	On this app you will see 4 tabs:</p>
   <ul>
 			<li>My Profile: This includes details of the personnel like manager/supervisor names, internet details, employee address</li>
+			<img src="InSync_My_Profile.PNG" style = "width:80%; height:350px;" alt="InSync My Profile" title="InSync My Profile" />
 			<li>My Activity: On this tab, one can report outage details along with duration etc. </li>
+			<img src="InSync_My_Activity.PNG" style = "width:80%; height:350px;" alt="InSync My Activity" title="InSync My Activity" />
 			<li>Support: </li>
 				<ul>
 					<li>IT Request: Allows user to raise IT request laptop/headset and other office accessories</li>
+					<img src="InSync_Support_IT_Req.PNG" style = "width:80%; height:350px;" alt="InSync Support IT Req"  title="InSync Support IT Req" />
 					<li>Office Access: Allows user to raise a request to enter office building during lockdown period</li>
+					<img src="InSync_Support_Office_Access_Req.PNG" style = "height:350px;" alt="InSync Support Office Access" title="InSync Support Office Access" />
 				</ul>
-			<li>Marketplace </li>
 	</ul>
 	<p>Login using your domain ID and password</p>
+	<b>Important Contacts:</b> <span> InSync DL - dl-insync-itsupport@legatohealth.com</span>
 </div>
 
 <div id="eTime" class="tabcontent">
   <div>
   	<span style = "font-size:24px;"><b>ADP</b></span>
-  	<span style="float:right;margin: 5px;">Navigate to  <a href="https://secure-gateway.antheminc.com/affwebservices/public/saml2sso?SPID=https://fed.adp.com&RelayState=https://fed.adp.com/saml/fedlanding.html?EETDC2NA" target = "_blank">site</a></span>
+  	<span style="float:right;margin: 5px;"><a href="https://secure-gateway.antheminc.com/affwebservices/public/saml2sso?SPID=https://fed.adp.com&RelayState=https://fed.adp.com/saml/fedlanding.html?EETDC2NA" target = "_blank"><button>Go to Site</button></a></span>
   </div>
-  <p>-	This portal allows you to enter your timesheet details per pay period. The timesheets need to be filled in before 15th of every month. </p>
-	<p>-	You can also request time off on this portal based on the balance you have left on the different leave categories like Annual, Casual, Sick, Maternity, Adoption etc. </p>
+  <p>This portal allows you to enter your timesheet details per pay period. The timesheets need to be filled in before 15th of every month. You can also request time off on this portal based on the balance you have left on the different leave categories like Annual, Casual, Sick, Maternity, Adoption etc. </p>
+  <ul>
+			<li>Go to My information</li>
+			<img src="eTime_Info.png" style = "margin:10px;" alt="Info" title="Info" />
+			<li>Select range of dates to Ex: (1-April-2020 to 30-April-2020) </li>
+			<img src="eTime_dates.png" style = "margin:10px;" alt="Date Ranges" title="Date Ranges" />
+			<li>Enter IN punch and Out Punch for working days for days in April. </li>
+			<img src="eTime_time_entry.png" style = "margin:10px;" alt="Time Entry"  title="Time Entry" />
+			<li>Click on Save button. </li>
+			<img src="eTime_time_entry_save.png" style = "margin:10px;" alt="Time Entry Save"  title="Time Entry Save" />
+			<li>Shift Validation</li>
+			<img src="eTime_shift_validation.png" style = "margin:10px;" alt="Shift Validation"  title="Shift Validation" />			
+	</ul>
 	<p>Login from Pulse -> IND eTime. Auto-directs you to ADP page. Domain ID/password is not required</p>
+	<b>Important Contacts:</b> <span> Javed Inamdar: Javed.Inamdar@legatohealth.com</span>
 </div>
 
 <div id="payportal" class="tabcontent">
   <div>
   	<span style = "font-size:24px;"><b>ADP Payroll Portal</b></span>
-  	<span style="float:right;margin: 5px;">Navigate to  <a href="https://secure-gateway.antheminc.com/affwebservices/public/saml2sso?SMASSERTIONREF=QUERY&SPID=https://portal001.globalview.adp.com/federate2" target = "_blank">site</a></span>
-  </div>
+  	<span style="float:right;margin: 5px;"><a href="https://secure-gateway.antheminc.com/affwebservices/public/saml2sso?SMASSERTIONREF=QUERY&SPID=https://portal001.globalview.adp.com/federate2" target = "_blank"><button>Go to Site</button></a></span>
+  </div>  
   <ul>
-  <li>	About Me: Personal information</li>
-	<li>	MyPay: This is an interactive dashboard which provides you a visual of your pay by month. You can also download payslips, Year-to-date accruals etc. </li>
-	<li>	MyForms: View Form16, Income Tax Computation Statements </li>
-	<li>	MyDeclarations: You can declare your investments through this page</li>
+  <li>	My View - This page gives you a quick glance through your profile, important links, FAQs, important information etc.</li>
+  <img src="payportal_home.png" style = "margin:10px; width:80%; height:350px;" alt="My View"  title="My View" />
+  <li>	About Me - Personal information & VPF Option.</li>
+  <img src="payportal_abountme.png" style = "margin:10px;width:80%; height:350px;" alt="About Me"  title="About Me" />
+	<li>	MyPay - This is an interactive dashboard which provides you a visual of your pay by month. You can also download payslips, Year-to-date accruals etc. </li>
+	<img src="payportal_mypay.png" style = "margin:10px;width:80%; height:350px;" alt="My Pay"  title="My Pay" />
+	<li>	MyForms - View Form16, Income Tax Computation Statements </li>
+	<img src="payportal_myforms.png" style = "margin:10px;width:80%; height:350px;" alt="My Forms"  title="My Forms" />
+	<li>	MyDeclarations - You can declare your investments through this page</li>
+	<img src="payportal_declarations.png" style = "margin:10px;width:80%; height:350px;" alt="My Declarations"  title="My Declarations" />
 	</ul>
 	<p>Login from Pulse -> IND Payroll Portal. Auto-directs you to ADP page. Domain ID/password is not required</p>
+	<b>Important Contacts:</b> <span> Payroll India DL: payroll.india@legatohealth.com</span>
 </div>
 
 <div id="details" class="tabcontent">
   <div>
   	<span style = "font-size:24px;"><b>Update Bank Details</b></span>
-  	<span style="float:right;margin: 5px;">Navigate to  <a href="https://hrsolutions.antheminc.com/psp/hrprod/EMPLOYEE/HRMS/c/ROLE_EMPLOYEE.GP_SS_EE_BANK.GBL" target = "_blank">site</a></span>
+  	<span style="float:right;margin: 5px;"><a href="https://hrsolutions.antheminc.com/psp/hrprod/EMPLOYEE/HRMS/c/ROLE_EMPLOYEE.GP_SS_EE_BANK.GBL" target = "_blank"><button>Go to Site</button></a></span>
   </div>
-  <p>A link will appear on this page to display the alert to update bank details, for new joinees</p>
-  <p>Click <a href="https://hrsolutions.antheminc.com/psp/hrprod/EMPLOYEE/HRMS/c/ROLE_EMPLOYEE.GP_SS_EE_BANK.GBL?">here</a> for more details</p>
+  <p>Use this page to add or update the bank details. All the employee related payments like salary, expense reimbursement, referral bonus etc. will be credited to this account.</p>
+  <img src="update_bank_details.png" style = "margin:10px;" alt="Bank Update Details"  title="Bank Update Details" />
   <p>Login from Pulse -> IND Personal Bank Account. Auto-directs you to details page. Domain ID/password is not required</p>
+  <b>Important Contacts:</b> <span> Javed Inamdar: Javed.Inamdar@legatohealth.com</span>
 </div>
 
 <div id="ppm" class="tabcontent">
   <div>
   	<span style = "font-size:24px;"><b>PPM</b></span>
-  	<span style="float:right;margin: 5px;">Navigate to  <a href="https://anthem.service-now.com/tcp" target = "_blank">site</a></span>
+  	<span style="float:right;margin: 5px;"><a href="https://anthem.service-now.com/tcp" target = "_blank"><button>Go to Site</button></a></span>
   </div>
 
   <p>This tool allows you to enter timesheet based on you project billing codes allocated</p>
@@ -216,7 +239,7 @@ p, ul {
 <div id="serviceNow" class="tabcontent">
   <div>
   	<span style = "font-size:24px;"><b>Service Now</b></span>
-  	<span style="float:right;margin: 5px;">Navigate to  <a href="https://anthem.service-now.com/" target = "_blank">site</a></span>
+  	<span style="float:right;margin: 5px;"><a href="https://anthem.service-now.com/" target = "_blank"><button>Go to Site</button></a></span>
   </div>
   <p>Also called SNow, is a one-stop-shop to raise access requests pertaining to the projects like DB access, UI access, S/W installations etc. </p>
   <p>Use the link <a href="https://anthem.service-now.com/" target = "_blank">here</a>. Auto-directs you to the access requests portal. Domain ID/password is not required</p>
@@ -225,7 +248,7 @@ p, ul {
 <div id="impact" class="tabcontent">
   <div>
   	<span style = "font-size:24px;"><b>IMPACT</b></span>
-  	<span style="float:right;margin: 5px;">Navigate to  <a href="https://vision.appreciatehub.com/ui/greatwork/index.html?locale=en_US&showCookieMsg=false" target = "_blank">site</a></span>
+  	<span style="float:right;margin: 5px;"><a href="https://vision.appreciatehub.com/ui/greatwork/index.html?locale=en_US&showCookieMsg=false" target = "_blank"><button>Go to Site</button></a></span>
   </div>
   <p>This portal is for us to appreciate and recognize someone’s good work. If you have worked with a wonderful team member, go right ahead and say a few good things about them!</p>
   <p>Use the link <a href="https://vision.appreciatehub.com/ui/greatwork/index.html?locale=en_US&showCookieMsg=false" target = "_blank">here</a>. Auto-directs you to the appreciation hub portal. Domain ID/password is not required</p>
@@ -234,7 +257,7 @@ p, ul {
 <div id="serviceConnect" class="tabcontent">
   <div>
   	<span style = "font-size:24px;"><b>IT ServiceConnect</b></span>
-  	<span style="float:right;margin: 5px;">Navigate to  <a href="https://anthem.service-now.com/ess?id=anth_index" target = "_blank">site</a></span>
+  	<span style="float:right;margin: 5px;"><a href="https://anthem.service-now.com/ess?id=anth_index" target = "_blank"><button>Go to Site</button></a></span>
   </div>
   <p>This portal is for us to create if any service/access requests and get approval</p>
   <p>Login from Pulse -> IT ServiceConnect. Auto-directs you to IT ServiceConnect page. Domain ID/password is not required</p>
@@ -243,16 +266,62 @@ p, ul {
 <div id="chromeRiver" class="tabcontent">
   <div>
   	<span style = "font-size:24px;"><b>Chrome River</b></span>
-  	<span style="float:right;margin: 5px;">Navigate to  <a href="https://app.chromeriver.com/login" target = "_blank">site</a></span>
+  	<span style="float:right;margin: 5px;"><a href="https://app.chromeriver.com/login" target = "_blank"><button>Go to Site</button></a></span>
   </div>
-  <p>-	This portal allows you to submit reimbursements for eligible payments made on personal accounts. For example: meals/travel, internet/phone usage etc.</p>
+  <p>This portal can be used for getting any expense reimbursements.</p>
+  <h4>Steps to Login</h4>
+  <ol type = "1">
+  	<li>Launching and Logging in to the Chrome River Application Launch the Chrome River application from any web browser at https://app.chromeriver.com. You must disable pop-up blockers for chromeriver.com to view and print PDF reports. Click the links below to access instructions for the most common web browsers</li>
+  	<ol>
+  		<li>Internet Explorer (Internet Explorer 11 or newer is required)</li>
+			<li>Chrome</li>
+			<li>Safari</li>
+  	</ol>
+  	<li>FIRST LOG IN Click the ‘Forgot’ link and enter your login and Company ID. Chrome River will send you an email with a temporary password. You will have to complete the following tasks the first time you log in. </li>
+  	<li>REGULAR LOG IN Complete the Login Screen: </li>
+  	<li>i. User ID: Anthem Windows ID (AFXXXXX) </li>
+  	<li>ii. Password: Password chosen by you </li>
+  	<li>iii. Company ID: Legatohealth </li>
+  	<li>iv. You will be prompted to set your own unique password.  </li>
+  </ol>
+  <img src="chrome_river_login.png" style = "margin:10px;" alt="Chrome River Login"  title="Chrome River Login" />
+  <h4>Creating a New Expense Report</h4>
+  <p>A new expense report can be created for each event, or events can be combined into a single report. From the Home Dashboard or the Expense Dashboard, click the NEW EXPENSE REPORT button. The Expense Entry Screen will appear.</p>
+  <img src="chrome_river_expense.png" style = "margin:10px;width:80%; height:350px;" alt="Expenses"  title="Expenses" />
+  <p>The Expense Header section stores all the basic information that applies to every expense listed on the report.</p>
+  <ol type = "1">
+  		<li>Expense Owner</li>
+			<li>Import from the Pre-approval</li>
+			<li>Pay Me In</li>
+			<li>Report Type: - 1. General Expenses, 2. Relocation Expenses, 3. Travel</li>
+			<li>Business Purpose</li>
+			<li>Start & End Date</li>
+			<li>Location From and To</li>
+  </ol>
+  <p>For actual expense claim, click on the add button & navigate through the menu options for adding expenses based on your type of claims.</p>
+	<p>To add a direct expense, select the Create New and click on the travel dialog box & it will navigate further additional options. Once your selection has been made, complete the required fields. Once complete hit button to SAVE the transaction.</p>	
+	<img src="chrome_river_create_new.png" style = "margin:10px;width:80%; height:350px;" alt="New Expenses"  title="New Expenses" />
+	<h4>Attaching Receipt Images</h4>
+	<p>Receipt images may be uploaded as a PDF, JPG or GIF, email or faxed can be attached to your expense report.</p>
+	<p>If you choose to upload receipts, the maximum size for a single upload is 5 MB, and the combined size of all the PDF, JPG, or GIF uploaded must be 100 MB or less. From Within the Expense Report: On the Expense Entry Screen, click on the RECEIPTS. Click on Browse File to Attach to attach your images file(s). Once uploaded, you can drag & drop the receipts on to the desired expense item. This action will link the image to the line item.</p>
+	<p>From the Expense type: Click on add attachment tab & Browse File to Attach to attach your images file(s).</p>
+	<img src="chrome_river_attachment.png" style = "margin:10px;width:80%; height:350px;" alt="Attachment"  title="Attachment" />
+	<h4>Submitting a Report</h4>
+	<ol type = "1">
+  		<li>To submit an open expense report, click SUBMIT in the lower right-hand corner of the Expense Entry Screen.</li>
+			<li>To submit the expense report from the Draft Expenses List, highlight it in the grid on the Expense Dashboard. Click SUBMIT in the navigation bar.</li>
+			<li>After you click SUBMIT, you will be prompted to certify that the expenses are correct and for legitimate business purposes.</li>
+			<li>Clicking SUBMIT again will send the report to the first steps in the approval routing process.</li>
+  </ol>
+ <b>Important Contacts:</b> <span> Chrome River Support: dl-ChromeRiverSupport@legatohealth.com </span>
+
   <p>Use the link <a href="https://app.chromeriver.com/login" target = "_blank">site</a>. Username is domain ID, password needs to be set for 1st time login, with Company ID = Legatohealth</p>
 </div>
 
 <div id="lms" class="tabcontent">
   <div>
   	<span style = "font-size:24px;"><b>Learning Management System</b></span>
-  	<span style="float:right;margin: 5px;">Navigate to  <a href="https://secure-gateway.antheminc.com/affwebservices/public/saml2sso?SMASSERTIONREF=QUERY&SPID=https://hcgg.login.us2.oraclecloud.com/fed&RelayState=https://hcgg.hcm.us2.oraclecloud.com/hcmCore/faces/FuseWelcome" target = "_blank">site</a></span>
+  	<span style="float:right;margin: 5px;"><a href="https://secure-gateway.antheminc.com/affwebservices/public/saml2sso?SMASSERTIONREF=QUERY&SPID=https://hcgg.login.us2.oraclecloud.com/fed&RelayState=https://hcgg.hcm.us2.oraclecloud.com/hcmCore/faces/FuseWelcome" target = "_blank"><button>Go to Site</button></a></span>
   </div>
   <p>-	This dashboard provides a list of mandatory and overdue trainings assigned to you. You can also view the hours of learning you have completed for the current year.</p>
 	<p>-	This portal also has a broad range of trainings available, which you can search for in the learning catalog and enroll for them. Your list of enrollments will appear on your learning dashboard.</p>
@@ -263,7 +332,7 @@ p, ul {
 <div id="perfMngmnt" class="tabcontent">
   <div>
   	<span style = "font-size:24px;"><b>Performance Management</b></span>
-  	<span style="float:right;margin: 5px;">Navigate to  <a href="https://secure-gateway.antheminc.com/affwebservices/public/saml2sso?SMASSERTIONREF=QUERY&SPID=https://hcgg.login.us2.oraclecloud.com/fed&RelayState=https://hcgg.hcm.us2.oraclecloud.com/hcmCore/faces/FuseWelcome" target = "_blank">site</a></span>
+  	<span style="float:right;margin: 5px;"><a href="https://secure-gateway.antheminc.com/affwebservices/public/saml2sso?SMASSERTIONREF=QUERY&SPID=https://hcgg.login.us2.oraclecloud.com/fed&RelayState=https://hcgg.hcm.us2.oraclecloud.com/hcmCore/faces/FuseWelcome" target = "_blank"><button>Go to Site</button></a></span>
   </div>
   <p>-	You can track your yearly performance evaluation through this portal</p>
 	<p>-	Your yearly goals must be entered and submitted based on the conversations with your direct reporting manager/supervisor</p>
@@ -274,7 +343,7 @@ p, ul {
 <div id="insurance" class="tabcontent">
   <div>
   	<span style = "font-size:24px;"><b>Health Insurance</b></span>
-  	<span style="float:right;margin: 5px;">Navigate to  <a href="https://fhpl.net/FhplLogins/Ecard/Login.aspx?Type=ecard" target = "_blank">site</a></span>
+  	<span style="float:right;margin: 5px;"><a href="https://fhpl.net/FhplLogins/Ecard/Login.aspx?Type=ecard" target = "_blank"><button>Go to Site</button></a></span>
   </div>
   <p>Update and view your health insurance details like – health plan, dependents, download eCard, link for covered hospitals and/or services etc.</p>
   <p>Login ID and password will be provided via email. Password can be reset for future logins.</p>
@@ -292,7 +361,7 @@ p, ul {
 <div id="contacts" class="tabcontent">
   <div>
   	<span style = "font-size:24px;"><b>Contacts/Helpdesk</b></span>
-  	<span style="float:right;margin: 5px;">Navigate to  <a href="https://pulse.antheminc.com/webcenter/portal/Pulse/pages_article?contentID=PULSE_012221" target = "_blank">site</a></span>
+  	<span style="float:right;margin: 5px;"><a href="https://pulse.antheminc.com/webcenter/portal/Pulse/pages_article?contentID=PULSE_012221" target = "_blank"><button>Go to Site</button></a></span>
   </div>
   <p>-	Enterprise Service Desk: 1-888-268-4368. This is a US number; you can use your personal Skype account to dial this number. </p>
   <p>-	Ethics, Privacy, Compliance: 1-877-725-2702</p>
