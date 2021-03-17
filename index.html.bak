@@ -114,6 +114,10 @@ p, ul {
 	height: 20px;
 }
 
+ol, ul, p {
+	font-family: serif;
+}
+p {text-indent: 1em;}
 </style>
 </head>
 <body>
@@ -141,8 +145,8 @@ p, ul {
   <div>
   	<span style = "font-size:24px;"><b>Home</b></span>  	
   </div>
-  <p>-	The primary audience of this tool is the new joiners at Legato Health Technology and the onboarding team.</p>
-  <p>-	For existing employees, it will serve as a library of bookmarks, that one uses on a day to day basis to update mandatory information required by Legato/Anthem.</p>
+  <p>The primary audience of this tool is the new joiners at Legato Health Technology and the onboarding team.</p>
+  <p>For existing employees, it will serve as a library of bookmarks, that one uses on a day to day basis to update mandatory information required by Legato/Anthem.</p>
   <p><b>Update domain Password: </b></p>
 	<p>Use the link <a href = "https://myprofile.antheminc.com/PASS/psf.exe" target="_blank">here</a> to access your IT profile. Login using your password or security questions you have answered before. Once logged in, you can change your password (make sure you are connected to your VPN), update security questions etc. </p>
 </div>
@@ -152,24 +156,24 @@ p, ul {
   	<span style = "font-size:24px;"><b>Insync</b></span>
   	<span style="float:right;margin: 5px;"><a href="https://insync.legatohealth.com/" target = "_blank"><button>Go to Site</button></a></span>
   </div>
-  <p>-	BCP stands for Business Continuity Planning which is a process created to help organizations track and plan for disaster scenarios which affect the normal business functioning. Recovery systems and mitigation plans are put in place ahead of time to enable ongoing operations seamlessly.</p>
-  <p>-	In Legato we use this tool to track outages with respect to Wi-Fi since we are working from home and business needs to be aware of such issues so that necessary recovery process can be implemented.</p>
-  <p>-	On this app you will see 4 tabs:</p>
-  <ul>
-			<li>My Profile: This includes details of the personnel like manager/supervisor names, internet details, employee address</li>
-			<img src="InSync_My_Profile.PNG" style = "width:80%; height:350px;" alt="InSync My Profile" title="InSync My Profile" />
-			<li>My Activity: On this tab, one can report outage details along with duration etc. </li>
-			<img src="InSync_My_Activity.PNG" style = "width:80%; height:350px;" alt="InSync My Activity" title="InSync My Activity" />
-			<li>Support: </li>
-				<ul>
-					<li>IT Request: Allows user to raise IT request laptop/headset and other office accessories</li>
-					<img src="InSync_Support_IT_Req.PNG" style = "width:80%; height:350px;" alt="InSync Support IT Req"  title="InSync Support IT Req" />
-					<li>Office Access: Allows user to raise a request to enter office building during lockdown period</li>
-					<img src="InSync_Support_Office_Access_Req.PNG" style = "height:350px;" alt="InSync Support Office Access" title="InSync Support Office Access" />
-				</ul>
-	</ul>
-	<p>Login using your domain ID and password</p>
+  <p>BCP stands for Business Continuity Planning which is a process created to help organizations track and plan for disaster scenarios which affect the normal business functioning. Recovery systems and mitigation plans are put in place ahead of time to enable ongoing operations seamlessly.</p>
+  <p>In Legato we use this tool to track outages with respect to Wi-Fi since we are working from home and business needs to be aware of such issues so that necessary recovery process can be implemented.</p>
+  <p>Login using your domain ID and password</p>
 	<b>Important Contacts:</b> <span> InSync DL - dl-insync-itsupport@legatohealth.com</span>
+  <p>On this app you will see 4 tabs:</p>
+  <ul>
+			<li><b>My Profile:</b> This includes details of the personnel like manager/supervisor names, internet details, employee address</li>
+			<img src="InSync_My_Profile.PNG" style = "width:80%; height:350px;" alt="InSync My Profile" title="InSync My Profile" />
+			<li><b>My Activity:</b> On this tab, one can report outage details along with duration etc. </li>
+			<img src="InSync_My_Activity.PNG" style = "width:80%; height:350px;" alt="InSync My Activity" title="InSync My Activity" />
+			<li><b>Support:</b> </li>
+				<ul>
+					<li><b><i>IT Request:</i></b> Allows user to raise IT request laptop/headset and other office accessories</li>
+					<img src="InSync_Support_IT_Req.PNG" style = "width:80%; height:350px;" alt="InSync Support IT Req"  title="InSync Support IT Req" />
+					<li><b><i>Office Access:</i></b> Allows user to raise a request to enter office building during lockdown period</li>
+					<img src="InSync_Support_Office_Access_Req.PNG" style = "width:98%;height:350px;" alt="InSync Support Office Access" title="InSync Support Office Access" />
+				</ul>
+	</ul>	
 </div>
 
 <div id="eTime" class="tabcontent">
@@ -178,6 +182,8 @@ p, ul {
   	<span style="float:right;margin: 5px;"><a href="https://secure-gateway.antheminc.com/affwebservices/public/saml2sso?SPID=https://fed.adp.com&RelayState=https://fed.adp.com/saml/fedlanding.html?EETDC2NA" target = "_blank"><button>Go to Site</button></a></span>
   </div>
   <p>This portal allows you to enter your timesheet details per pay period. The timesheets need to be filled in before 15th of every month. You can also request time off on this portal based on the balance you have left on the different leave categories like Annual, Casual, Sick, Maternity, Adoption etc. </p>
+  <p>Login from Pulse -> IND eTime. Auto-directs you to ADP page. Domain ID/password is not required</p>
+	<b>Important Contacts:</b> <span> Javed Inamdar: Javed.Inamdar@legatohealth.com</span>
   <ul>
 			<li>Go to My information</li>
 			<img src="eTime_Info.png" style = "margin:10px;" alt="Info" title="Info" />
@@ -190,29 +196,27 @@ p, ul {
 			<li>Shift Validation</li>
 			<img src="eTime_shift_validation.png" style = "margin:10px;" alt="Shift Validation"  title="Shift Validation" />			
 	</ul>
-	<p>Login from Pulse -> IND eTime. Auto-directs you to ADP page. Domain ID/password is not required</p>
-	<b>Important Contacts:</b> <span> Javed Inamdar: Javed.Inamdar@legatohealth.com</span>
 </div>
 
 <div id="payportal" class="tabcontent">
   <div>
   	<span style = "font-size:24px;"><b>ADP Payroll Portal</b></span>
   	<span style="float:right;margin: 5px;"><a href="https://secure-gateway.antheminc.com/affwebservices/public/saml2sso?SMASSERTIONREF=QUERY&SPID=https://portal001.globalview.adp.com/federate2" target = "_blank"><button>Go to Site</button></a></span>
-  </div>  
+  </div> 
+  <p>Login from Pulse -> IND Payroll Portal. Auto-directs you to ADP page. Domain ID/password is not required</p>
+	<b>Important Contacts:</b> <span> Payroll India DL: payroll.india@legatohealth.com</span> 
   <ul>
-  <li>	My View - This page gives you a quick glance through your profile, important links, FAQs, important information etc.</li>
+  <li>	<b>My View:</b> This page gives you a quick glance through your profile, important links, FAQs, important information etc.</li>
   <img src="payportal_home.png" style = "margin:10px; width:80%; height:350px;" alt="My View"  title="My View" />
-  <li>	About Me - Personal information & VPF Option.</li>
+  <li>	<b>About Me:</b> Personal information & VPF Option.</li>
   <img src="payportal_abountme.png" style = "margin:10px;width:80%; height:350px;" alt="About Me"  title="About Me" />
-	<li>	MyPay - This is an interactive dashboard which provides you a visual of your pay by month. You can also download payslips, Year-to-date accruals etc. </li>
+	<li>	<b>MyPay:</b> This is an interactive dashboard which provides you a visual of your pay by month. You can also download payslips, Year-to-date accruals etc. </li>
 	<img src="payportal_mypay.png" style = "margin:10px;width:80%; height:350px;" alt="My Pay"  title="My Pay" />
-	<li>	MyForms - View Form16, Income Tax Computation Statements </li>
+	<li>	<b>MyForms:</b> View Form16, Income Tax Computation Statements </li>
 	<img src="payportal_myforms.png" style = "margin:10px;width:80%; height:350px;" alt="My Forms"  title="My Forms" />
-	<li>	MyDeclarations - You can declare your investments through this page</li>
+	<li>	<b>MyDeclarations:</b> You can declare your investments through this page</li>
 	<img src="payportal_declarations.png" style = "margin:10px;width:80%; height:350px;" alt="My Declarations"  title="My Declarations" />
-	</ul>
-	<p>Login from Pulse -> IND Payroll Portal. Auto-directs you to ADP page. Domain ID/password is not required</p>
-	<b>Important Contacts:</b> <span> Payroll India DL: payroll.india@legatohealth.com</span>
+	</ul>	
 </div>
 
 <div id="details" class="tabcontent">
@@ -220,10 +224,11 @@ p, ul {
   	<span style = "font-size:24px;"><b>Update Bank Details</b></span>
   	<span style="float:right;margin: 5px;"><a href="https://hrsolutions.antheminc.com/psp/hrprod/EMPLOYEE/HRMS/c/ROLE_EMPLOYEE.GP_SS_EE_BANK.GBL" target = "_blank"><button>Go to Site</button></a></span>
   </div>
-  <p>Use this page to add or update the bank details. All the employee related payments like salary, expense reimbursement, referral bonus etc. will be credited to this account.</p>
-  <img src="update_bank_details.png" style = "margin:10px;" alt="Bank Update Details"  title="Bank Update Details" />
   <p>Login from Pulse -> IND Personal Bank Account. Auto-directs you to details page. Domain ID/password is not required</p>
   <b>Important Contacts:</b> <span> Javed Inamdar: Javed.Inamdar@legatohealth.com</span>
+  <p>Use this page to add or update the bank details. All the employee related payments like salary, expense reimbursement, referral bonus etc. will be credited to this account.</p>
+  <img src="update_bank_details.png" style = "margin:10px;" alt="Bank Update Details"  title="Bank Update Details" />
+ 
 </div>
 
 <div id="ppm" class="tabcontent">
@@ -269,25 +274,29 @@ p, ul {
   	<span style="float:right;margin: 5px;"><a href="https://app.chromeriver.com/login" target = "_blank"><button>Go to Site</button></a></span>
   </div>
   <p>This portal can be used for getting any expense reimbursements.</p>
+  <b>Important Contacts:</b> <span> Chrome River Support: dl-ChromeRiverSupport@legatohealth.com </span>
+  <p>Use the link <a href="https://app.chromeriver.com/login" target = "_blank">site</a>. Username is domain ID, password needs to be set for 1st time login, with Company ID = Legatohealth</p>
   <h4>Steps to Login</h4>
   <ol type = "1">
   	<li>Launching and Logging in to the Chrome River Application Launch the Chrome River application from any web browser at https://app.chromeriver.com. You must disable pop-up blockers for chromeriver.com to view and print PDF reports. Click the links below to access instructions for the most common web browsers</li>
-  	<ol>
+  	<ol type = "i">
   		<li>Internet Explorer (Internet Explorer 11 or newer is required)</li>
 			<li>Chrome</li>
 			<li>Safari</li>
   	</ol>
-  	<li>FIRST LOG IN Click the ‘Forgot’ link and enter your login and Company ID. Chrome River will send you an email with a temporary password. You will have to complete the following tasks the first time you log in. </li>
-  	<li>REGULAR LOG IN Complete the Login Screen: </li>
-  	<li>i. User ID: Anthem Windows ID (AFXXXXX) </li>
-  	<li>ii. Password: Password chosen by you </li>
-  	<li>iii. Company ID: Legatohealth </li>
-  	<li>iv. You will be prompted to set your own unique password.  </li>
+  	<li>First Login - Click the ‘Forgot’ link and enter your login and Company ID. Chrome River will send you an email with a temporary password. You will have to complete the following tasks the first time you log in. </li>
+  	<li>Regular Login - Complete the Login Screen: </li>
+  	<ol type = "i">
+	  	<li>User ID: Anthem Windows ID (AFXXXXX) </li>
+	  	<li>Password: Password chosen by you </li>
+	  	<li>Company ID: Legatohealth </li>
+	  	<li>You will be prompted to set your own unique password.  </li>
+  	</ol>
   </ol>
   <img src="chrome_river_login.png" style = "margin:10px;" alt="Chrome River Login"  title="Chrome River Login" />
   <h4>Creating a New Expense Report</h4>
   <p>A new expense report can be created for each event, or events can be combined into a single report. From the Home Dashboard or the Expense Dashboard, click the NEW EXPENSE REPORT button. The Expense Entry Screen will appear.</p>
-  <img src="chrome_river_expense.png" style = "margin:10px;" alt="Expenses"  title="Expenses" />
+  <img src="chrome_river_expense.png" style = "margin:10px;width:80%; height:350px;" alt="Expenses"  title="Expenses" />
   <p>The Expense Header section stores all the basic information that applies to every expense listed on the report.</p>
   <ol type = "1">
   		<li>Expense Owner</li>
@@ -300,12 +309,12 @@ p, ul {
   </ol>
   <p>For actual expense claim, click on the add button & navigate through the menu options for adding expenses based on your type of claims.</p>
 	<p>To add a direct expense, select the Create New and click on the travel dialog box & it will navigate further additional options. Once your selection has been made, complete the required fields. Once complete hit button to SAVE the transaction.</p>	
-	<img src="chrome_river_create_new.png" style = "margin:10px;" alt="New Expenses"  title="New Expenses" />
+	<img src="chrome_river_create_new.png" style = "margin:10px;width:80%; height:350px;" alt="New Expenses"  title="New Expenses" />
 	<h4>Attaching Receipt Images</h4>
 	<p>Receipt images may be uploaded as a PDF, JPG or GIF, email or faxed can be attached to your expense report.</p>
 	<p>If you choose to upload receipts, the maximum size for a single upload is 5 MB, and the combined size of all the PDF, JPG, or GIF uploaded must be 100 MB or less. From Within the Expense Report: On the Expense Entry Screen, click on the RECEIPTS. Click on Browse File to Attach to attach your images file(s). Once uploaded, you can drag & drop the receipts on to the desired expense item. This action will link the image to the line item.</p>
 	<p>From the Expense type: Click on add attachment tab & Browse File to Attach to attach your images file(s).</p>
-	<img src="chrome_river_attachment.png" style = "margin:10px;" alt="Attachment"  title="Attachment" />
+	<img src="chrome_river_attachment.png" style = "margin:10px;width:80%; height:350px;" alt="Attachment"  title="Attachment" />
 	<h4>Submitting a Report</h4>
 	<ol type = "1">
   		<li>To submit an open expense report, click SUBMIT in the lower right-hand corner of the Expense Entry Screen.</li>
@@ -313,9 +322,6 @@ p, ul {
 			<li>After you click SUBMIT, you will be prompted to certify that the expenses are correct and for legitimate business purposes.</li>
 			<li>Clicking SUBMIT again will send the report to the first steps in the approval routing process.</li>
   </ol>
- <b>Important Contacts:</b> <span> Chrome River Support: dl-ChromeRiverSupport@legatohealth.com </span>
-
-  <p>Use the link <a href="https://app.chromeriver.com/login" target = "_blank">site</a>. Username is domain ID, password needs to be set for 1st time login, with Company ID = Legatohealth</p>
 </div>
 
 <div id="lms" class="tabcontent">
